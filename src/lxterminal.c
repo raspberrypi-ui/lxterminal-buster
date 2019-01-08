@@ -1519,13 +1519,13 @@ LXTerminal * lxterminal_initialize(LXTermWindow * lxtermwin, CommandArguments * 
         GdkVisual *visual = gdk_screen_get_rgba_visual(gtk_widget_get_screen(GTK_WIDGET(terminal->window)));
         if (visual != NULL)
         {
-            gtk_widget_set_visual(terminal->window, visual);
+            //gtk_widget_set_visual(terminal->window, visual);
         }
     #else
         GdkColormap *colormap = gdk_screen_get_rgba_colormap(gtk_widget_get_screen(GTK_WIDGET(terminal->window)));
         if (colormap != NULL)
         {
-            gtk_widget_set_colormap(terminal->window, colormap);
+            //gtk_widget_set_colormap(terminal->window, colormap);
         }
     #endif
 
