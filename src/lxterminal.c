@@ -491,7 +491,11 @@ static void terminal_open_url_activate_event(GtkAction * action, LXTerminal * te
         Term * term = g_ptr_array_index(terminal->terms, gtk_notebook_get_current_page(GTK_NOTEBOOK(terminal->notebook)));
         if (term->matched_url)
         {
-                gchar * cmd = g_strdup_printf("xdg-open %s", term->matched_url);
+                gchar *cmd;
+                if (strncmp (term->matched_url, "www.", 4))
+                    cmd = g_strdup_printf("xdg-open %s", term->matched_url);
+                else
+                    cmd = g_strdup_printf("xdg-open http://%s", term->matched_url);
                 if ( ! g_spawn_command_line_async(cmd, NULL))
                         g_warning("Failed to launch xdg-open. The command was `%s'\n", cmd);
                 g_free(cmd);
@@ -1038,9 +1042,13 @@ static gboolean terminal_vte_button_press_event(VteTerminal * vte, GdkEventButto
     else if ((event->button == 1) && (event->state & GDK_CONTROL_MASK))
     {
         gchar * match = terminal_get_match_at(vte, term, event);
+        gchar *cmd;
         if (match != NULL)
         {
-            gchar * cmd = g_strdup_printf("xdg-open %s", match);
+            if (strncmp (match, "www.", 4))
+                cmd = g_strdup_printf("xdg-open %s", match);
+            else
+                cmd = g_strdup_printf("xdg-open http://%s", match);
             if ( ! g_spawn_command_line_async(cmd, NULL))
                 g_warning("Failed to launch xdg-open. The command was `%s'\n", cmd);
             g_free(cmd);
