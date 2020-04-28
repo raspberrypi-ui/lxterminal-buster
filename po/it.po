@@ -4,21 +4,22 @@
 # Fabio Barone <phonky at gmx.net>, 2009
 # Andrea Florio <andrea@opensuse.org>, 2010.
 # Daniele Forsi <daniele@forsi.it>, 2012.
+# Emanuele Goldoni <emanuele.goldoni@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: lxterminal 0.1.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-24 12:14+0800\n"
-"PO-Revision-Date: 2014-08-08 08:33+0000\n"
-"Last-Translator: Daniele Forsi <daniele@forsi.it>\n"
+"PO-Revision-Date: 2020-04-28 18:53+0200\n"
+"Last-Translator: Emanuele Goldoni <emanuele.goldoni@gmail.com>\n"
 "Language-Team: Italian\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.7\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 "X-POOTLE-MTIME: 1407486790.000000\n"
 
 #. 0
@@ -43,13 +44,11 @@ msgstr "A_iuto"
 
 #. 4
 #: ../src/lxterminal.c:125
-#, fuzzy
 msgid "_New Window"
 msgstr "_Nuova finestra"
 
 #. 5
 #: ../src/lxterminal.c:126
-#, fuzzy
 msgid "New T_ab"
 msgstr "Nuova _scheda"
 
@@ -61,9 +60,8 @@ msgstr "_Chiudi scheda"
 
 #. 8
 #: ../src/lxterminal.c:129
-#, fuzzy
 msgid "Close _Window"
-msgstr "_Nuova finestra"
+msgstr "C_hiudi finestra"
 
 #. 9
 #: ../src/lxterminal.c:130 ../src/lxterminal.c:156
@@ -84,17 +82,17 @@ msgstr "Pulisci sc_orrimento all'indietro"
 #. 13
 #: ../src/lxterminal.c:134
 msgid "Zoom _In"
-msgstr ""
+msgstr "_Aumenta Zoom"
 
 #. 14
 #: ../src/lxterminal.c:135
 msgid "Zoom O_ut"
-msgstr ""
+msgstr "_Diminuisci Zoom"
 
 #. 15
 #: ../src/lxterminal.c:136
 msgid "Zoom _Reset"
-msgstr ""
+msgstr "Dimensione _normale"
 
 #. 16
 #. 17
@@ -154,21 +152,22 @@ msgstr "Rinomina scheda"
 
 #: ../src/lxterminal.c:570
 msgid "_Cancel"
-msgstr ""
+msgstr "_Annulla"
 
 #: ../src/lxterminal.c:571
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 # I nomi sembrano in ordine dall'ultimo al primo
 #. TRANSLATORS: Replace this string with your names, one name per line.
 #: ../src/lxterminal.c:740
 msgid "translator-credits"
 msgstr ""
+"Emanuele Goldoni <emanuele.goldoni@gmail.com>\n"
 "Daniele Forsi <daniele@forsi.it>\n"
 "Andrea Florio <andrea@opensuse.org>\n"
 "Alessandro Pellizzari <alex@amiran.it>\n"
-"Fabio Barone<phonky@gmx.net>"
+"Fabio Barone <phonky@gmx.net>"
 
 #: ../src/lxterminal.c:746 ../src/lxterminal.c:780 ../src/preferences.c:289
 #: ../data/lxterminal.desktop.in.h:1
@@ -176,9 +175,8 @@ msgid "LXTerminal"
 msgstr "LXTerminal"
 
 #: ../src/lxterminal.c:748
-#, fuzzy
 msgid "Copyright (C) 2008-2017"
-msgstr "Copyright © 2008-2017"
+msgstr "Copyright (C) 2008-2017"
 
 #: ../src/lxterminal.c:749
 msgid "Terminal emulator for LXDE project"
@@ -187,11 +185,11 @@ msgstr "Emulatore di terminale per il progetto LXDE"
 #: ../src/lxterminal.c:814
 #, c-format
 msgid "You are about to close %d tabs. Are you sure you want to continue?"
-msgstr ""
+msgstr "Verranno chiuse %d schede. Proseguire?"
 
 #: ../src/lxterminal.c:815
 msgid "Confirm close"
-msgstr ""
+msgstr "Conferma chiusura"
 
 #: ../data/lxterminal-preferences.glade.h:1
 msgid "Top"
@@ -253,76 +251,75 @@ msgstr "Avviso acustico"
 
 #: ../data/lxterminal-preferences.glade.h:15
 msgid "Black"
-msgstr ""
+msgstr "Nero"
 
 #: ../data/lxterminal-preferences.glade.h:16
 msgid "Red"
-msgstr ""
+msgstr "Rosso"
 
 #: ../data/lxterminal-preferences.glade.h:17
-#, fuzzy
 msgid "Green"
-msgstr "Greco"
+msgstr "Verde"
 
 #: ../data/lxterminal-preferences.glade.h:18
 msgid "Brown"
-msgstr ""
+msgstr "Marrone"
 
 #: ../data/lxterminal-preferences.glade.h:19
 msgid "Blue"
-msgstr ""
+msgstr "Blu"
 
 #: ../data/lxterminal-preferences.glade.h:20
 msgid "Magenta"
-msgstr ""
+msgstr "Magenta"
 
 #: ../data/lxterminal-preferences.glade.h:21
 msgid "Cyan"
-msgstr ""
+msgstr "Ciano"
 
 #: ../data/lxterminal-preferences.glade.h:22
 msgid "Gray"
-msgstr ""
+msgstr "Grigio"
 
 #: ../data/lxterminal-preferences.glade.h:23
 msgid "Darkgray"
-msgstr ""
+msgstr "Grigio scuro"
 
 #: ../data/lxterminal-preferences.glade.h:24
 msgid "Bright Red"
-msgstr ""
+msgstr "Rosso chiaro"
 
 #: ../data/lxterminal-preferences.glade.h:25
 msgid "Bright Green"
-msgstr ""
+msgstr "Verde chiaro"
 
 #: ../data/lxterminal-preferences.glade.h:26
 msgid "Yellow"
-msgstr ""
+msgstr "Giallo"
 
 #: ../data/lxterminal-preferences.glade.h:27
 msgid "Bright Blue"
-msgstr ""
+msgstr "Blu chiaro"
 
 #: ../data/lxterminal-preferences.glade.h:28
 msgid "Bright Magenta"
-msgstr ""
+msgstr "Magenta chiaro"
 
 #: ../data/lxterminal-preferences.glade.h:29
 msgid "Bright Cyan"
-msgstr ""
+msgstr "Ciano chiaro"
 
 #: ../data/lxterminal-preferences.glade.h:30
 msgid "White"
-msgstr ""
+msgstr "Bianco"
 
 #: ../data/lxterminal-preferences.glade.h:31
 msgid "Palette"
-msgstr ""
+msgstr "Tavolozza"
 
 #: ../data/lxterminal-preferences.glade.h:32
 msgid "Palette Preset"
-msgstr ""
+msgstr "Tavolozza predefinita"
 
 #: ../data/lxterminal-preferences.glade.h:33
 msgid "Style"
@@ -349,13 +346,12 @@ msgid "Hide Close buttons"
 msgstr "Nascondi pulsanti di chiusura"
 
 #: ../data/lxterminal-preferences.glade.h:39
-#, fuzzy
 msgid "Hide mouse pointer"
-msgstr "Nascondi pulsanti di chiusura"
+msgstr "Nascondi puntatore del mouse"
 
 #: ../data/lxterminal-preferences.glade.h:40
 msgid "Default window size"
-msgstr ""
+msgstr "Dimensione predefinita finestra"
 
 #: ../data/lxterminal-preferences.glade.h:41
 msgid "x"
@@ -383,77 +379,67 @@ msgstr "Disabilita l'uso di Alt-N per schede e menu"
 
 #: ../data/lxterminal-preferences.glade.h:46
 msgid "Disable confirmation before closing a window with multiple tabs"
-msgstr ""
+msgstr "Disabilita conferma per la chiusura di una finestra con più schede"
 
 #: ../data/lxterminal-preferences.glade.h:47
 msgid "Advanced"
 msgstr "Avanzate"
 
 #: ../data/lxterminal-preferences.glade.h:48
-#, fuzzy
 msgid "New Window"
 msgstr "_Nuova finestra"
 
 #: ../data/lxterminal-preferences.glade.h:49
-#, fuzzy
 msgid "New Tab"
 msgstr "Nuova _scheda"
 
 #: ../data/lxterminal-preferences.glade.h:50
-#, fuzzy
 msgid "Close Tab"
 msgstr "_Chiudi scheda"
 
 #: ../data/lxterminal-preferences.glade.h:51
-#, fuzzy
 msgid "Close Window"
-msgstr "_Nuova finestra"
+msgstr "C_hiudi finestra"
 
 #: ../data/lxterminal-preferences.glade.h:52
-#, fuzzy
 msgid "Copy"
-msgstr "Copia _URL"
+msgstr "_Copia"
 
 #: ../data/lxterminal-preferences.glade.h:53
-#, fuzzy
 msgid "Paste"
 msgstr "_Incolla"
 
 #: ../data/lxterminal-preferences.glade.h:55
-#, fuzzy
 msgid "Previous Tab"
 msgstr "Scheda _precedente"
 
 #: ../data/lxterminal-preferences.glade.h:56
-#, fuzzy
 msgid "Next Tab"
 msgstr "Scheda _successiva"
 
 #: ../data/lxterminal-preferences.glade.h:57
-#, fuzzy
 msgid "Move Tab Left"
 msgstr "Sposta scheda a sinistra"
 
 #: ../data/lxterminal-preferences.glade.h:58
-#, fuzzy
 msgid "Move Tab Right"
 msgstr "Sposta scheda a destra"
 
 #: ../data/lxterminal-preferences.glade.h:59
 msgid "Zoom In"
-msgstr ""
+msgstr "Aumenta Zoom"
 
 #: ../data/lxterminal-preferences.glade.h:60
 msgid "Zoom Out"
-msgstr ""
+msgstr "Diminuisci Zoom"
 
 #: ../data/lxterminal-preferences.glade.h:61
 msgid "Zoom Reset"
-msgstr ""
+msgstr "Dimensione normale"
 
 #: ../data/lxterminal-preferences.glade.h:62
 msgid "Shortcuts"
-msgstr ""
+msgstr "Scorciatoie"
 
 #: ../data/lxterminal.desktop.in.h:2
 msgid "Terminal"
