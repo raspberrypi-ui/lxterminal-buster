@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxterminal 0.1.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-24 12:14+0800\n"
-"PO-Revision-Date: 2020-04-28 18:53+0200\n"
+"POT-Creation-Date: 2020-04-29 13:47+0200\n"
+"PO-Revision-Date: 2020-04-29 13:51+0200\n"
 "Last-Translator: Emanuele Goldoni <emanuele.goldoni@gmail.com>\n"
 "Language-Team: Italian\n"
 "Language: it\n"
@@ -54,7 +54,7 @@ msgstr "Nuova _scheda"
 
 #. 6
 #. 7
-#: ../src/lxterminal.c:128 ../src/lxterminal.c:167
+#: ../src/lxterminal.c:128 ../src/lxterminal.c:168
 msgid "_Close Tab"
 msgstr "_Chiudi scheda"
 
@@ -64,12 +64,12 @@ msgid "Close _Window"
 msgstr "C_hiudi finestra"
 
 #. 9
-#: ../src/lxterminal.c:130 ../src/lxterminal.c:156
+#: ../src/lxterminal.c:130 ../src/lxterminal.c:157
 msgid "Cop_y"
 msgstr "_Copia"
 
 #. 10
-#: ../src/lxterminal.c:131 ../src/lxterminal.c:157
+#: ../src/lxterminal.c:131 ../src/lxterminal.c:158
 msgid "_Paste"
 msgstr "_Incolla"
 
@@ -96,32 +96,32 @@ msgstr "Dimensione _normale"
 
 #. 16
 #. 17
-#: ../src/lxterminal.c:138 ../src/lxterminal.c:160
+#: ../src/lxterminal.c:138 ../src/lxterminal.c:161
 msgid "Preference_s"
 msgstr "Preferen_ze"
 
 #. 18
-#: ../src/lxterminal.c:139 ../src/lxterminal.c:162
+#: ../src/lxterminal.c:139 ../src/lxterminal.c:163
 msgid "Na_me Tab"
 msgstr "Rino_mina scheda"
 
 #. 19
-#: ../src/lxterminal.c:140 ../src/lxterminal.c:163
+#: ../src/lxterminal.c:140 ../src/lxterminal.c:164
 msgid "Pre_vious Tab"
 msgstr "Scheda _precedente"
 
 #. 20
-#: ../src/lxterminal.c:141 ../src/lxterminal.c:164
+#: ../src/lxterminal.c:141 ../src/lxterminal.c:165
 msgid "Ne_xt Tab"
 msgstr "Scheda _successiva"
 
 #. 21
-#: ../src/lxterminal.c:142 ../src/lxterminal.c:165
+#: ../src/lxterminal.c:142 ../src/lxterminal.c:166
 msgid "Move Tab _Left"
 msgstr "Sposta scheda a sinistra"
 
 #. 22
-#: ../src/lxterminal.c:143 ../src/lxterminal.c:166
+#: ../src/lxterminal.c:143 ../src/lxterminal.c:167
 msgid "Move Tab _Right"
 msgstr "Sposta scheda a destra"
 
@@ -139,28 +139,32 @@ msgid "New _Tab"
 msgstr "Nuova _scheda"
 
 #: ../src/lxterminal.c:155
-msgid "Copy _URL"
-msgstr "Copia _URL"
+msgid "Open _URL"
+msgstr "Apri _URL"
 
-#: ../src/lxterminal.c:158
+#: ../src/lxterminal.c:156
+msgid "Copy _URL"
+msgstr "Co_pia URL"
+
+#: ../src/lxterminal.c:159
 msgid "Cl_ear scrollback"
 msgstr "Pu_lisci scorrimento all'indietro"
 
-#: ../src/lxterminal.c:567 ../data/lxterminal-preferences.glade.h:54
+#: ../src/lxterminal.c:595 ../data/lxterminal-preferences.glade.h:54
 msgid "Name Tab"
 msgstr "Rinomina scheda"
 
-#: ../src/lxterminal.c:570
+#: ../src/lxterminal.c:598
 msgid "_Cancel"
 msgstr "_Annulla"
 
-#: ../src/lxterminal.c:571
+#: ../src/lxterminal.c:599
 msgid "_OK"
 msgstr "_OK"
 
 # I nomi sembrano in ordine dall'ultimo al primo
 #. TRANSLATORS: Replace this string with your names, one name per line.
-#: ../src/lxterminal.c:740
+#: ../src/lxterminal.c:768
 msgid "translator-credits"
 msgstr ""
 "Emanuele Goldoni <emanuele.goldoni@gmail.com>\n"
@@ -169,25 +173,29 @@ msgstr ""
 "Alessandro Pellizzari <alex@amiran.it>\n"
 "Fabio Barone <phonky@gmx.net>"
 
-#: ../src/lxterminal.c:746 ../src/lxterminal.c:780 ../src/preferences.c:289
+#: ../src/lxterminal.c:774 ../src/preferences.c:289
 #: ../data/lxterminal.desktop.in.h:1
 msgid "LXTerminal"
 msgstr "LXTerminal"
 
-#: ../src/lxterminal.c:748
-msgid "Copyright (C) 2008-2017"
-msgstr "Copyright (C) 2008-2017"
+#: ../src/lxterminal.c:776
+msgid "Copyright (C) 2008-2018"
+msgstr ""
 
-#: ../src/lxterminal.c:749
+#: ../src/lxterminal.c:777
 msgid "Terminal emulator for LXDE project"
 msgstr "Emulatore di terminale per il progetto LXDE"
 
-#: ../src/lxterminal.c:814
+#: ../src/lxterminal.c:808
+msgid "LXTerminal Terminal Emulator"
+msgstr "Emulatore di terminale LXTerminal"
+
+#: ../src/lxterminal.c:842
 #, c-format
 msgid "You are about to close %d tabs. Are you sure you want to continue?"
 msgstr "Verranno chiuse %d schede. Proseguire?"
 
-#: ../src/lxterminal.c:815
+#: ../src/lxterminal.c:843
 msgid "Confirm close"
 msgstr "Conferma chiusura"
 
