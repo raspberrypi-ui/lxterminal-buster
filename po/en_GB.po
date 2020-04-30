@@ -135,9 +135,8 @@ msgid "New _Tab"
 msgstr "New _Tab"
 
 #: ../src/lxterminal.c:155
-#, fuzzy
 msgid "Open _URL"
-msgstr "Copy _URL"
+msgstr "_Open URL"
 
 #: ../src/lxterminal.c:156
 msgid "Copy _URL"
@@ -180,7 +179,7 @@ msgstr "Terminal emulator for LXDE project"
 
 #: ../src/lxterminal.c:808
 msgid "LXTerminal Terminal Emulator"
-msgstr ""
+msgstr "LXTerminal Terminal Emulator"
 
 #: ../src/lxterminal.c:842
 #, c-format
