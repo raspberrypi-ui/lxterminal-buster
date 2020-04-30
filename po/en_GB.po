@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LxTerminal\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-24 12:14+0800\n"
+"POT-Creation-Date: 2020-04-29 13:47+0200\n"
 "PO-Revision-Date: 2014-07-08 19:15+0000\n"
 "Last-Translator: system user <>\n"
 "Language-Team: English UK en_GB <yorvik.ubunto@gmail.com>\n"
@@ -49,7 +49,7 @@ msgstr "New _Tab"
 
 #. 6
 #. 7
-#: ../src/lxterminal.c:128 ../src/lxterminal.c:167
+#: ../src/lxterminal.c:128 ../src/lxterminal.c:168
 msgid "_Close Tab"
 msgstr "_Close Tab"
 
@@ -60,12 +60,12 @@ msgid "Close _Window"
 msgstr "New _Window"
 
 #. 9
-#: ../src/lxterminal.c:130 ../src/lxterminal.c:156
+#: ../src/lxterminal.c:130 ../src/lxterminal.c:157
 msgid "Cop_y"
 msgstr "Cop_y"
 
 #. 10
-#: ../src/lxterminal.c:131 ../src/lxterminal.c:157
+#: ../src/lxterminal.c:131 ../src/lxterminal.c:158
 msgid "_Paste"
 msgstr "_Paste"
 
@@ -92,32 +92,32 @@ msgstr ""
 
 #. 16
 #. 17
-#: ../src/lxterminal.c:138 ../src/lxterminal.c:160
+#: ../src/lxterminal.c:138 ../src/lxterminal.c:161
 msgid "Preference_s"
 msgstr "Preference_s"
 
 #. 18
-#: ../src/lxterminal.c:139 ../src/lxterminal.c:162
+#: ../src/lxterminal.c:139 ../src/lxterminal.c:163
 msgid "Na_me Tab"
 msgstr "Na_me Tab"
 
 #. 19
-#: ../src/lxterminal.c:140 ../src/lxterminal.c:163
+#: ../src/lxterminal.c:140 ../src/lxterminal.c:164
 msgid "Pre_vious Tab"
 msgstr "Pre_vious Tab"
 
 #. 20
-#: ../src/lxterminal.c:141 ../src/lxterminal.c:164
+#: ../src/lxterminal.c:141 ../src/lxterminal.c:165
 msgid "Ne_xt Tab"
 msgstr "Ne_xt Tab"
 
 #. 21
-#: ../src/lxterminal.c:142 ../src/lxterminal.c:165
+#: ../src/lxterminal.c:142 ../src/lxterminal.c:166
 msgid "Move Tab _Left"
 msgstr "Move Tab _Left"
 
 #. 22
-#: ../src/lxterminal.c:143 ../src/lxterminal.c:166
+#: ../src/lxterminal.c:143 ../src/lxterminal.c:167
 msgid "Move Tab _Right"
 msgstr "Move Tab _Right"
 
@@ -135,50 +135,59 @@ msgid "New _Tab"
 msgstr "New _Tab"
 
 #: ../src/lxterminal.c:155
+#, fuzzy
+msgid "Open _URL"
+msgstr "Copy _URL"
+
+#: ../src/lxterminal.c:156
 msgid "Copy _URL"
 msgstr "Copy _URL"
 
-#: ../src/lxterminal.c:158
+#: ../src/lxterminal.c:159
 msgid "Cl_ear scrollback"
 msgstr "Cl_ear scrollback"
 
-#: ../src/lxterminal.c:567 ../data/lxterminal-preferences.glade.h:54
+#: ../src/lxterminal.c:595 ../data/lxterminal-preferences.glade.h:54
 msgid "Name Tab"
 msgstr "Name Tab"
 
-#: ../src/lxterminal.c:570
+#: ../src/lxterminal.c:598
 msgid "_Cancel"
 msgstr ""
 
-#: ../src/lxterminal.c:571
+#: ../src/lxterminal.c:599
 msgid "_OK"
 msgstr ""
 
 #. TRANSLATORS: Replace this string with your names, one name per line.
-#: ../src/lxterminal.c:740
+#: ../src/lxterminal.c:768
 msgid "translator-credits"
 msgstr "translator-credits"
 
-#: ../src/lxterminal.c:746 ../src/lxterminal.c:780 ../src/preferences.c:289
+#: ../src/lxterminal.c:774 ../src/preferences.c:289
 #: ../data/lxterminal.desktop.in.h:1
 msgid "LXTerminal"
 msgstr "LXTerminal"
 
-#: ../src/lxterminal.c:748
+#: ../src/lxterminal.c:776
 #, fuzzy
-msgid "Copyright (C) 2008-2017"
+msgid "Copyright (C) 2008-2018"
 msgstr "Copyright © 2008-2017"
 
-#: ../src/lxterminal.c:749
+#: ../src/lxterminal.c:777
 msgid "Terminal emulator for LXDE project"
 msgstr "Terminal emulator for LXDE project"
 
-#: ../src/lxterminal.c:814
+#: ../src/lxterminal.c:808
+msgid "LXTerminal Terminal Emulator"
+msgstr ""
+
+#: ../src/lxterminal.c:842
 #, c-format
 msgid "You are about to close %d tabs. Are you sure you want to continue?"
 msgstr ""
 
-#: ../src/lxterminal.c:815
+#: ../src/lxterminal.c:843
 msgid "Confirm close"
 msgstr ""
 
